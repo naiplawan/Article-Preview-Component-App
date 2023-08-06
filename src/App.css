@@ -1,0 +1,106 @@
+:root {
+  --very-dark-grayish-blue: hsl(217, 19%, 35%);
+  --desaturated-dark-blue: hsl(214, 17%, 51%);
+  --grayish-blue: hsl(212, 23%, 69%);
+  --light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+@media (max-width: 375px) {
+  .web-containner {
+    display: flex;
+    flex-direction: column;
+    height: 70rem;
+    width: 25rem;
+  }
+}
+
+.web-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--light-grayish-blue);
+  width: 100vw;
+  height: 100vh;
+}
+
+.web-containner {
+  display: flex;
+  flex-direction: row;
+  height: 25rem;
+  width: 70rem;
+  font-size: 13px;
+  font-family: 'Kodchasan', sans-serif;
+  background-color: #FFFFFF;
+  border-radius: 2em;
+  box-shadow: 8px 4px 18px 2px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 8px 4px 18px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 8px 4px 18px 2px rgba(0, 0, 0, 0.2);
+}
+.title-box{
+  font-size: 1.7rem;
+  font-weight: 700;
+  padding-bottom: 2rem;
+  margin-top: 2rem;
+}
+.left-box-containner{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+.drawwer-image{
+  border-radius: 31px 0px 0px 31px;
+  -webkit-border-radius: 31px 0px 0px 31px;
+  -moz-border-radius: 31px 0px 0px 31px;
+}
+
+.right-box-containner{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: center;
+  
+  width: 100%;
+  padding: 2rem;
+}
+.right-text-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.subtext-box{
+  font-weight: 500;
+  font-size: 1rem;
+  color: var(--grayish-blue);
+}
+.name-box{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.name-textbox{
+  display: flex;
+  color: var(--grayish-blue);
+}
+.name-title{
+  color: var(--very-dark-grayish-blue);
+  font-size: 1rem;
+  font-weight: 900;
+}
+.name-context{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem;
+}
+.img-avatar{
+  border-radius: 10rem;
+  width: 4rem;
+  height: 4rem;
+}
+.attribution { 
+  font-size: 1rem; 
+  text-align: center; }
+.attribution a { 
+  color: hsl(228, 45%, 44%); }
