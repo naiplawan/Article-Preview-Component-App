@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
 import ShareBox from './ShareBox';
+import Drawers from './assets/drawers.jpg'
+import Avatar from './assets/avatar-michelle.jpg'
 
 function App() {
   return (
@@ -8,7 +10,7 @@ function App() {
     <div className="web-wrapper">
     <div className='web-containner'>
       <div className="left-box-containner">
-      <img className="drawwer-image" src="../public/images/drawers.jpg" alt="drawers"width={500} height={500} />
+      <img className="drawwer-image" src={Drawers} alt="drawers"width={500} height={500} />
       </div>
       <div className="right-box-containner">
         <div className="right-text-box"> 
@@ -21,7 +23,7 @@ function App() {
         </div>
         <div className="name-box">
           <div className="name-textbox"> 
-          <img className="img-avatar" src='../public/images/avatar-michelle.jpg'/>
+          <img className="img-avatar" src={Avatar}/>
            <div className="name-context"> 
            <div className='name-title'>
            Michelle Appleton
