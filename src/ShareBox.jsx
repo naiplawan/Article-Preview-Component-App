@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 import './ShareBox.css';
 import ShareIcon from './assets/icon-share.svg';
 import FacebookIcon from './assets/icon-facebook.svg';

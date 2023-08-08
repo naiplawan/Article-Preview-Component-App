@@ -1,4 +1,3 @@
-import React from 'react';
 import './App.css';
 import ShareBox from './ShareBox';
 import Drawers from './assets/drawers.jpg'
